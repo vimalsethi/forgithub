@@ -33,7 +33,9 @@ int main(int argc, char* argv[])
     unsigned char d[4];
     }addr;
 
-
+	char test[5];
+	test[6] = 10;
+	
     //char ipfilename[1];
     //char opfilename[1];
     if ( argc != 2 ) /* argc should be 2 for correct execution */
