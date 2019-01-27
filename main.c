@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
     unsigned char d[4];
     }addr;
 
-	char test[5];
+	char test[5]
 	test[6] = 10;
 	
     //char ipfilename[1];
