@@ -34,8 +34,8 @@ int main(int argc, char* argv[])
     }addr;
 
 
-    char ipfilename[128];
-    char opfilename[128];
+    char ipfilename[1];
+    char opfilename[1];
     if ( argc != 2 ) /* argc should be 2 for correct execution */
     {
         /* We print argv[0] assuming it is the program name */
