@@ -98,7 +98,7 @@ int main(int argc, char* argv[])
 
     FILE *binFile;
 
-    binFile = fopen(opfilename,"wb+");
+    binFile = fopen(argv[1],"wb+");
     if(binFile == 0x00)
     {
         return -2;
