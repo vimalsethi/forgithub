@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
     unsigned int dataSize = 0x00;
     unsigned int initialAddress;
     unsigned char filedone;
-    unsigned char buffer[4096];
+    unsigned char buffer[4];
     filedone = 0;
 
     union{
